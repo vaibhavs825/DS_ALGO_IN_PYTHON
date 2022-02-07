@@ -6,8 +6,7 @@ d = {key:value for key,value in zip(cl,op)}
 
 def func(abc):
     for i in abc:
-        if i in op:
-            a.append(i)
+        if i in op:1
         elif i in cl:
             if a.pop()!=d[i]:
                 return -1
